@@ -1,3 +1,43 @@
 print("Name:SAMANTA")
 print("Department CSE")
 print("University Name:KYAU")
+
+
+
+name="BASHAR"
+age=25
+cgpa=3.75
+
+print(type(name))
+print(type(age))
+print(type(cgpa))
+
+
+
+
+
+age=input("Enter your age:")
+print (type (age))
+
+num1=int(input("Enter first number :"))
+num2=int(input("Enter second number :"))
+result=num1+num2
+print("Sum=",result)
+
+
+length=float(input("Enter length:"))
+width=float(input("Enter width"))
+area=length*width
+print("Area",area)
+
+
+mark1=float(input("Enter mark1:"))
+mark2=float(input("Enter mark2:"))
+mark3=float(input("Enter mark3:"))
+
+average=(mark1+mark2+mark3)/3
+print("Average",average)
+
+age=20
+if age>=18:
+  print("Adult")
